@@ -1,0 +1,31 @@
+
+.app{
+  max-width: 400px;
+  margin: auto;
+  font-family: sans-serif;
+}
+form,.filters{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+input,button{
+  padding: 8px;
+  border:1px solid #ccc;
+  border-radius: 4px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+.done{
+  text-decoration: line-through;
+  color: gray;
+
+}
