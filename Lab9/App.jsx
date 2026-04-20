@@ -1,5 +1,6 @@
 import React from 'react';
-import { Routes, Route, NavLink } from 'react-router-dom'; import Home from './Home.jsx';
+import { Routes, Route, NavLink } from 'react-router-dom'; 
+import Home from './Home.jsx';
 import About from './About.jsx';
 import Contact from './Contact.jsx';
 function App() {
